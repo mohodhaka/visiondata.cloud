@@ -2523,10 +2523,10 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
+			background-color: rgba(0, 0, 0, 0.2);
 			width: 100%;
 			height: 100%;
-			z-index: 1;
+			z-index: -1;
 		}
 
 		.image img {
@@ -3069,6 +3069,9 @@ input, select, textarea {
 		.spotlight .image.main {
 			display: none;
 		}
+		.spotlight  video.image.main{
+			display: block;
+		}
 
 			.spotlight .image.main img {
 				position: relative;
@@ -3125,7 +3128,7 @@ input, select, textarea {
 			height: 101%;
 			padding: 6em 3em;
 			top: 0;
-			width: 28em;
+			width: 55vw;
 		}
 
 		.spotlight.left .content {
@@ -3870,7 +3873,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				padding-bottom: 1px;
-				padding-top: 44px !important;
+				/* padding-top: 44px !important; */
 			}
 
 			#titleBar {
