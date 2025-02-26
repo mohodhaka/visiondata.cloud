@@ -3506,7 +3506,7 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
-					font-size: 3em;
+					font-size: 5em;
 					margin: 0;
 				}
 
@@ -3853,9 +3853,12 @@ input, select, textarea {
 				}
 
 					#banner .content header h2 {
-						font-size: 1.5em;
+						font-size: 3em;
 					}
 
+					#banner .content header p {
+						font-size: 2.5em;
+					}
 					#banner .content .image {
 						height: 9em;
 						width: 9em;
